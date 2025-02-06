@@ -6,7 +6,7 @@
 font-family: 'Poppins', sans-serif;
 }
 .container {
-  width: 60%;
+  width: 40%;
   margin: 30px auto;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@ header{
   margin-bottom: 30px;
 }
 input{
-  width: 80%;
+  width: 100%;
   padding: 18px;
   color: white;
   border-radius: 25px;
@@ -65,7 +65,7 @@ h3{
   width: 100%;
 }
 .card{
-  width: 80%;
+  width: 100%;
   padding: 15px;
   color:ivory;
   border-radius: 30px;
