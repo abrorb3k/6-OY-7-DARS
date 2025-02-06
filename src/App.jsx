@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   const [values, setValue] = useState([]);
   const [completed, setCompleted] = useState([]);
-  const [todo, setTodo] = useState(""); 
+  const [todo, setTodo] = useState("");
 
   function handleAdd(event) {
     event.preventDefault();
@@ -82,7 +82,7 @@ function App() {
           </h3>
           {completed.map((value, index) => (
             <div key={index} className="card">
-              <p>{value}</p>
+              <p className="comp">{value}</p>
               <div className="btns">
                 <button className="returnn" onClick={() => handleReturn(index)}>
                   <img src={returnn} alt="return btn" />

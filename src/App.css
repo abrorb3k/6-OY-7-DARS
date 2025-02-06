@@ -81,6 +81,9 @@ h3{
   transform: scale(1.05);
   cursor: pointer;
 }
+.comp{
+  text-decoration: line-through;
+}
 .btns{
   display: flex;
   align-items: center;
@@ -105,7 +108,7 @@ h3{
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.deletee:hover{
+.deletee img:hover{
   animation: btnss 0.6s ease-in-out infinite;
 }
 .returnn{
